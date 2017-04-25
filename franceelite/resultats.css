@@ -1,70 +1,355 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  font-family: sans-serif;
-  font-weight: 400;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
 body {
-  line-height: 1;
+	font-size: 0.80em;
 }
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-
 
 h1 {
-  font-size: 2.5em;
-  margin:16px;
+	font-family: sansation;
+	font-size: 1.5em;
+	color: #101010;	/*
+**************** #couleur info nom regate
+*/
 }
 
-body {
-  display: flex;
-  flex-direction:  column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: flex-start;
-}
 table {
-  margin:16px;
-  flex-grow: 1;
-  flex-basis: 100%;
-  width: 100%;
+	width: 95%;
+	border: 1px solid #101010;
+	border-collapse:collapse;
 }
-.ResCaptionNomCourse{
-  font-weight: 600;
+
+caption {
+	font-family: calibri;
+	font-size: 1.25em;
+	background-color: #666666;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+
+thead {
+	font-family: sansation;
+	font-size: 1em;
+	background-color: #337ab7;	/*
+**************** #couleur du bandeau ligne/bateau/club  000000
+*/
+	color: #ffffff;
+	text-align: center;
+}
+
+tbody {
+	font-family: calibri;
+	font-size: 1.2em;
+	background-color: #ffffff;
+	color: #101010;	/*
+**************** #couleur des infos competiteurs   000000
+*/
+	text-align: center;
+}
+
+td  {
+	border:1px solid #999999;
+}
+/*
+**************** Classement des REGIONS
+*/
+th.ClaRegPlace  {
+	width: 5%;
+}
+
+th.ClaRegRegion  {
+	width: 19%;
+}
+
+th.ClaRegEmbarcation  {
+	width: 7%;
+}
+
+th.ClaRegCategorie  {
+	width: 8%;
+}
+
+th.ClaRegTotal  {
+	width: 8%;
+}
+
+th.ClaRegMedaille  {
+	width: 5%;
+}
+
+td.ClaRegRegion {
+	text-align: left;
+	font-weight: bold;
+}
+
+td.ClaRegTotal {
+	font-weight: bold;
+}
+
+/*
+**************** Classement des CLUBS
+*/
+
+th.ClaClubPlace  {
+	width: 10%;
+}
+
+th.ClaClubClub  {
+	width: 50%;
+}
+
+th.ClaClubTotal  {
+	width: 10%;
+}
+
+th.ClaClubMedaille  {
+	width: 10%;
+}
+
+td.ClaClubClub {
+	text-align: left;
+	font-weight: bold;
+}
+
+td.ClaClubTotal {
+	font-weight: bold;
+}
+
+
+/*
+**************** Classement des CLUBS 2 (avec les catégories)
+*/
+th.ClaClub2Place  {
+	width: 5%;
+}
+
+th.ClaClub2Club  {
+	width: 19%;
+}
+
+th.ClaClub2Embarcation  {
+	width: 7%;
+}
+
+th.ClaClub2Categorie  {
+	width: 8%;
+}
+
+th.ClaClub2Total  {
+	width: 8%;
+}
+
+th.ClaClub2Medaille  {
+	width: 5%;
+}
+
+td.ClaClub2Region {
+	text-align: left;
+	font-weight: bold;
+}
+
+td.ClaClub2Total {
+	font-weight: bold;
+}
+
+/*
+**************** Programme des courses
+*/
+table.Prog {
+	width: 95%;
+	margin-bottom: 10px;
+	border: 1px solid #101010;
+	border-collapse:collapse;
+}
+table.Prog thead{
+	border-bottom:1px solid #999999;
+}
+th.ProgLigne {
+	width: 10%;
+	text-align: center;
+}
+th.ProgBateau {
+	width: 60%;
+	text-align: left;
+}
+th.ProgClub {
+	width: 30%;
+	text-align: left;
+}
+th.ProgObs {
+	width: 30%;
+	text-align: left;
+}
+td.ProgLigne	  {
+	border-width: 0px;
+	text-align: center;
+}
+td.ProgBateau  {
+	border-width: 0px;
+	text-align: left;
+}
+td.ProgClub  {
+	border-width: 0px;
+	text-align: left;
+}
+td.ProgObs  {
+	border-width: 0px;
+	text-align: left;
+}
+td.ProgCaption {
+	border-width: 0px;
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+}
+
+table.ProgCaption {
+	width: 100%;
+	border-width: 0px;
+	border-collapse:collapse;
+}
+
+table.ProgCaption td {
+	border-width: 0px;
+	border-collapse:collapse;
+	text-align: center;
+	font-family: calibri;
+	background-color: #549fd0;
+	/*
+**************** #666666 gris mettre 0080ff
+*/
+	color: #ffffff;
+}
+
+.ProgCaptionNumCourse {
+	font-size: 1.15em;
+	width: 10%;
+	font-weight: bold;
+}
+.ProgCaptionNivCourse {
+	font-size: 1em;
+	width: 15%;	
+	font-weight: normal;
+}
+.ProgCaptionNomCourse {
+	font-size: 1.15em;
+	width: 60%;	
+	font-weight: bold;
+}
+.ProgCaptionLibCourse  {
+	font-size: 0.75em;
+	font-weight: normal;
+}
+.ProgCaptionDateCourse {
+	font-size: 1em;
+	width: 15%;	
+	font-weight: normal;
+}
+.ProgCaptionHeureCourse {
+	font-weight: bold;
+}
+
+
+/*
+**************** Résultats des courses
+*/
+table.Res {
+	width: 95%;
+	margin-bottom: 10px;
+	border: 1px solid #101010;
+	border-collapse:collapse;
+}
+table.Res thead {
+	border-bottom:1px solid #999999;
+}
+th.ResPlace {
+	width: 7.5%;
+	text-align: center;
+}
+th.ResLigne {
+	width: 7.5%;
+	text-align: center;
+}
+th.ResBateau {
+	width: 50%;
+	text-align: left;
+}
+th.ResClub {
+	width: 25%;
+	text-align: left;
+}
+th.ResTemps {
+	width: 10%;
+	text-align: left;
+}
+td.ResPlace  {
+	border-width: 0px;
+	text-align: center;
+}
+td.ResLigne	  {
+	border-width: 0px;
+	text-align: center;
+}
+td.ResBateau  {
+	border-width: 0px;
+	text-align: left;
+}
+td.ResClub  {
+	border-width: 0px;
+	text-align: left;
+}
+td.ResTemps {
+	border-width: 0px;
+	text-align: left;
+}
+
+td.ResCaption {
+	border-width: 0px;
+	border-collapse:collapse;
+	margin:0;
+	padding:0;
+}
+
+table.ResCaption {
+	width: 100%;
+	border-width: 0px;
+	border-collapse:collapse;
+}
+
+table.ResCaption td {
+	border-width: 0px;
+	border-collapse:collapse;
+	text-align: center;
+	font-family: calibri;
+	background-color: #549fd0;
+		/*
+**************** #code fédé    0080ff
+*/
+	color: #ffffff;
+}
+
+.ResCaptionNumCourse {
+	font-size: 1.25em;
+	width: 10%;
+	font-weight: bold;
+}
+.ResCaptionNivCourse {
+	font-size: 1em;
+	width: 15%;	
+	font-weight: normal;
+}
+.ResCaptionNomCourse {
+	font-size: 1.25em;
+	width: 60%;	
+	font-weight: bold;
+}
+.ResCaptionLibCourse  {
+	font-size: 0.75em;
+	font-weight: normal;
+}
+.ResCaptionDateCourse {
+	font-size: 1em;
+	width: 15%;	
+	font-weight: normal;
+}
+.ResCaptionHeureCourse {
+	font-weight: bold;
 }
