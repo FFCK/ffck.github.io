@@ -4,7 +4,7 @@ body {
 
 h1 {
 	font-family: sansation;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #101010;	/*
 **************** #couleur info nom regate
 */
@@ -226,12 +226,12 @@ table.ProgCaption td {
 }
 .ProgCaptionNivCourse {
 	font-size: 1em;
-	width: 15%;	
+	width: 15%;
 	font-weight: normal;
 }
 .ProgCaptionNomCourse {
 	font-size: 1.15em;
-	width: 60%;	
+	width: 60%;
 	font-weight: bold;
 }
 .ProgCaptionLibCourse  {
@@ -240,7 +240,7 @@ table.ProgCaption td {
 }
 .ProgCaptionDateCourse {
 	font-size: 1em;
-	width: 15%;	
+	width: 15%;
 	font-weight: normal;
 }
 .ProgCaptionHeureCourse {
@@ -333,12 +333,12 @@ table.ResCaption td {
 }
 .ResCaptionNivCourse {
 	font-size: 1em;
-	width: 15%;	
+	width: 15%;
 	font-weight: normal;
 }
 .ResCaptionNomCourse {
 	font-size: 1.25em;
-	width: 60%;	
+	width: 60%;
 	font-weight: bold;
 }
 .ResCaptionLibCourse  {
@@ -347,7 +347,7 @@ table.ResCaption td {
 }
 .ResCaptionDateCourse {
 	font-size: 1em;
-	width: 15%;	
+	width: 15%;
 	font-weight: normal;
 }
 .ResCaptionHeureCourse {
