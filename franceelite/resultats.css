@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-	font-family: sansation;
+	font-family: sansation, Sans-Serif;
 	font-size: 2em;
 	color: #101010;	/*
 **************** #couleur info nom regate
@@ -17,7 +17,7 @@ table {
 }
 
 caption {
-	font-family: calibri;
+	font-family: calibri, Sans-Serif;
 	font-size: 1.25em;
 	background-color: #666666;
 	color: #ffffff;
@@ -26,7 +26,7 @@ caption {
 
 
 thead {
-	font-family: sansation;
+	font-family: sansation, Sans-Serif;
 	font-size: 1em;
 	background-color: #337ab7;	/*
 **************** #couleur du bandeau ligne/bateau/club  000000
@@ -36,7 +36,7 @@ thead {
 }
 
 tbody {
-	font-family: calibri;
+	font-family: calibri, Sans-Serif;
 	font-size: 1.2em;
 	background-color: #ffffff;
 	color: #101010;	/*
@@ -211,7 +211,7 @@ table.ProgCaption td {
 	border-width: 0px;
 	border-collapse:collapse;
 	text-align: center;
-	font-family: calibri;
+	font-family: calibri, Sans-Serif;
 	background-color: #549fd0;
 	/*
 **************** #666666 gris mettre 0080ff
@@ -318,7 +318,7 @@ table.ResCaption td {
 	border-width: 0px;
 	border-collapse:collapse;
 	text-align: center;
-	font-family: calibri;
+	font-family: calibri, Sans-Serif;
 	background-color: #549fd0;
 		/*
 **************** #code fédé    0080ff
