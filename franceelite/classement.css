@@ -13,3 +13,7 @@ background: -webkit-linear-gradient(left, #1e5799 0%,#2989d8 48%,#7db9e8 100%); 
 background: linear-gradient(to right, #1e5799 0%,#2989d8 48%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
 }
+.tableheader {
+  background-color: #E0E0E0;
+  font-weight: 600;
+}
